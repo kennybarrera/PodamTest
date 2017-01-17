@@ -1,0 +1,3 @@
+dependencies:
+  pre:
+    - mvn dependency:resolve-plugins -Dsilent=true -DexcludeTransitive=true
